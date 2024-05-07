@@ -262,7 +262,7 @@ namespace vMenuClient.data
             // MP2023_02 DLC (V 3095)
             { "weapon_battlerifle", GetLabelText("WTD_BATTLERIFLE") },
             { "weapon_snowlauncher", GetLabelText("WTD_SNOWLNCHR") },
-            { "weapon_lightrifle", "Light Rifle" },
+            { "weapon_precisioncarbine", "Precision Carbine" },
         };
 
         public static readonly Dictionary<string, string> weaponNames = new()
@@ -384,7 +384,7 @@ namespace vMenuClient.data
             { "weapon_battlerifle", GetLabelText("WT_BATTLERIFLE") },
             { "weapon_snowlauncher", GetLabelText("WT_SNOWLNCHR") },
             { "weapon_hackingdevice", GetLabelText("WT_HACKDEVICE") },
-            { "weapon_lightrifle", "Light Rifle" },
+            { "weapon_precisioncarbine", "Precision Carbine" },
         };
         #endregion
 
@@ -508,7 +508,7 @@ namespace vMenuClient.data
             ["weapon_battlerifle"] = Permission.WPBattleRifle,
             ["weapon_snowlauncher"] = Permission.WPSnowLauncher,
             ["weapon_hackingdevice"] = Permission.WPHackingDevice,
-            ["weapon_lightrifle"] = Permission.WPLightRifle,
+            ["weapon_precisioncarbine"] = Permission.WPPrecisionCarbine,
         };
         #endregion
 
@@ -933,9 +933,20 @@ namespace vMenuClient.data
             ["COMPONENT_SPECIALCARBINE_VARMOD_XMAS23"] = GetLabelText("WCT_SPCR_XM"),
             ["COMPONENT_HEAVYSNIPER_VARMOD_XMAS23"] = GetLabelText("WCT_HVSP_XM"),
             
-            ["COMPONENT_LIGHTRIFLE_CLIP_01"] = GetLabelText("WCT_CLIP1"),
-            ["COMPONENT_LIGHTRIFLE_CLIP_02"] = GetLabelText("WCT_CLIP2"),
-            
+            ["COMPONENT_MILITARY_CLIP_01"] = "Soviet Clip",
+            ["COMPONENT_MILITARY_CLIP_01"] = "Extended Soviet Clip",
+            ["COMPONENT_VIETNAM_CLIP_01"] = "Vietnam Clip",
+            ["COMPONENT_VIETNAM_CLIP_01"] = "Vietnam Clip",
+            ["COMPONENT_COMP_CLIP_01"] = "Compact Clip",
+            ["COMPONENT_COMP_CLIP_01"] = "Compact Clip",
+            ["COMPONENT_OMEGA_CLIP_01"] = "Omega Drum",
+            ["COMPONENT_AT_RAIL"] = "Rail",
+            ["COMPONENT_AT_SCOPE_MEDIUM_TINT"] = "Medium Scope",
+            ["COMPONENT_AT_PRC_STOCK"] = "Unfolded Stock",
+            ["COMPONENT_AT_PRC_STOCK_COLLAPSED"] = "Collapsed Stock",
+            ["COMPONENT_AT_MUZZLE_PRC"] = "Precision Carbine Muzzle",
+            ["COMPONENT_AT_MUZZLE_CR"] = "Carbine Muzzle",
+            ["COMPONENT_AT_MUZZLE_BRD"] = "Bird Muzzle",
             
         };
         #endregion
