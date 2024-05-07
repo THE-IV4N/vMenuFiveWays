@@ -508,7 +508,7 @@ namespace vMenuClient.data
             ["weapon_battlerifle"] = Permission.WPBattleRifle,
             ["weapon_snowlauncher"] = Permission.WPSnowLauncher,
             ["weapon_hackingdevice"] = Permission.WPHackingDevice,
-            ["weapon_hackingdevice"] = Permission.LightRifle,
+            ["weapon_lightrifle"] = Permission.WPLightRifle,
         };
         #endregion
 
