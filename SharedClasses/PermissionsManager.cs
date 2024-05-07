@@ -324,7 +324,7 @@ namespace vMenuShared
             WPSnowLauncher,
             WPHackingDevice,
             
-            WPLightRifle,
+            WPPrecisionCarbine,
             #endregion
 
             // Weapon Loadouts Menu
