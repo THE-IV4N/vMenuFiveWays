@@ -263,8 +263,8 @@ namespace vMenuClient.data
             { "weapon_battlerifle", GetLabelText("WTD_BATTLERIFLE") },
             { "weapon_snowlauncher", GetLabelText("WTD_SNOWLNCHR") },
             //ADDONY
-            { "weapon_precisioncarbine", "Precision Carbine" },
-            { "weapon_katana", "Katana" },
+            { "weapon_precisioncarbine", GetLabelText("WTD_PRECISIONCRBN") ,
+            { "weapon_katana", GetLabelText("WTD_katana") },
         };
 
         public static readonly Dictionary<string, string> weaponNames = new()
