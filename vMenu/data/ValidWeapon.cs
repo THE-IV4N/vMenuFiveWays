@@ -262,7 +262,9 @@ namespace vMenuClient.data
             // MP2023_02 DLC (V 3095)
             { "weapon_battlerifle", GetLabelText("WTD_BATTLERIFLE") },
             { "weapon_snowlauncher", GetLabelText("WTD_SNOWLNCHR") },
-            { "weapon_precisioncarbine", "Precision Carbine" },
+            //ADDONY
+            { "weapon_precisioncarbine", GetLabelText("weapon_precisioncarbine") },
+            { "weapon_katana", GetLabelText("weapon_katana") },
         };
 
         public static readonly Dictionary<string, string> weaponNames = new()
@@ -384,7 +386,9 @@ namespace vMenuClient.data
             { "weapon_battlerifle", GetLabelText("WT_BATTLERIFLE") },
             { "weapon_snowlauncher", GetLabelText("WT_SNOWLNCHR") },
             { "weapon_hackingdevice", GetLabelText("WT_HACKDEVICE") },
-            { "weapon_precisioncarbine", "Precision Carbine" },
+            //ADDONY
+            { "weapon_precisioncarbine", GetLabelText("weapon_precisioncarbine") },
+            { "weapon_katana", GetLabelText("weapon_katana") },
         };
         #endregion
 
@@ -508,7 +512,9 @@ namespace vMenuClient.data
             ["weapon_battlerifle"] = Permission.WPBattleRifle,
             ["weapon_snowlauncher"] = Permission.WPSnowLauncher,
             ["weapon_hackingdevice"] = Permission.WPHackingDevice,
+            //Addony
             ["weapon_precisioncarbine"] = Permission.WPPrecisionCarbine,
+            ["weapon_katana"] = Permission.WPKatana,
         };
         #endregion
 
