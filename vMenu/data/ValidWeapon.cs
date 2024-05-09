@@ -387,8 +387,8 @@ namespace vMenuClient.data
             { "weapon_snowlauncher", GetLabelText("WT_SNOWLNCHR") },
             { "weapon_hackingdevice", GetLabelText("WT_HACKDEVICE") },
             //ADDONY
-            { "weapon_precisioncarbine", "Precision Carbine" },
-            { "weapon_katana", "Katana" },
+            { "weapon_precisioncarbine", GetLabelText("WT_PRECISIONCRBN") ,
+            { "weapon_katana", GetLabelText("WT_katana") },
         };
         #endregion
 
