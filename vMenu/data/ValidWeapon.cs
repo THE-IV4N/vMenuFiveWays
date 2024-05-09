@@ -933,12 +933,12 @@ namespace vMenuClient.data
             ["COMPONENT_SPECIALCARBINE_VARMOD_XMAS23"] = GetLabelText("WCT_SPCR_XM"),
             ["COMPONENT_HEAVYSNIPER_VARMOD_XMAS23"] = GetLabelText("WCT_HVSP_XM"),
             
-            ["COMPONENT_MILITARY_CLIP_01"] = "20rnd Clip????",
-            ["COMPONENT_MILITARY_CLIP_02"] = "30rnd Military Clip",
+            ["COMPONENT_MILITARY_CLIP_01"] = "30rnd Military Clip",
+            ["COMPONENT_MILITARY_CLIP_02"] = "40rnd Military Clip",
             ["COMPONENT_VIETNAM_CLIP_01"] = "20rnd Clip",
-            ["COMPONENT_VIETNAM_CLIP_02"] = "Vietnam Clip",
+            ["COMPONENT_VIETNAM_CLIP_02"] = "20rnd Military Clip",
             ["COMPONENT_COMP_CLIP_01"] = "10rnd Clip",
-            ["COMPONENT_COMP_CLIP_02"] = "Compact Clip",
+            ["COMPONENT_COMP_CLIP_02"] = "10rnd Military Clip",
             ["COMPONENT_OMEGA_CLIP_01"] = "Omega Drum",
             ["COMPONENT_AT_RAIL"] = "Rail",
             ["COMPONENT_AT_SCOPE_MEDIUM_TINT"] = "Medium Scope",
@@ -946,7 +946,7 @@ namespace vMenuClient.data
             ["COMPONENT_AT_PRC_STOCK_COLLAPSED"] = "Collapsed Stock",
             ["COMPONENT_AT_MUZZLE_PRC"] = "Default Muzzle",
             ["COMPONENT_AT_MUZZLE_CR"] = "Carbine Muzzle",
-            ["COMPONENT_AT_MUZZLE_BRD"] = "Bird Muzzle",
+            ["COMPONENT_AT_MUZZLE_BRD"] = "Aftermarket Muzzle",
             
         };
         #endregion
