@@ -263,9 +263,9 @@ namespace vMenuClient.data
             { "weapon_battlerifle", GetLabelText("WTD_BATTLERIFLE") },
             { "weapon_snowlauncher", GetLabelText("WTD_SNOWLNCHR") },
             //ADDONY
-            { "weapon_precisioncarbine", GetLabelText("WTD_PRECISIONCRBN") ,
+            { "weapon_precisioncarbine", GetLabelText("WTD_PRECISIONCRBN") },
             { "weapon_katana", GetLabelText("WTD_katana") },
-            { "weapon_dutypistol", GetLabelText("WTD_katana") },
+            { "weapon_dutypistol", GetLabelText("WT_PIST_DUTY") },
         };
 
         public static readonly Dictionary<string, string> weaponNames = new()
@@ -388,9 +388,9 @@ namespace vMenuClient.data
             { "weapon_snowlauncher", GetLabelText("WT_SNOWLNCHR") },
             { "weapon_hackingdevice", GetLabelText("WT_HACKDEVICE") },
             //ADDONY
-            { "weapon_precisioncarbine", GetLabelText("WT_PRECISIONCRBN") ,
+            { "weapon_precisioncarbine", GetLabelText("WT_PRECISIONCRBN") },
             { "weapon_katana", GetLabelText("WT_katana") },
-            { "weapon_dutypistol", GetLabelText("WTD_katana") },
+            { "weapon_dutypistol", GetLabelText("WT_PIST_DUTY") },
         };
         #endregion
 
