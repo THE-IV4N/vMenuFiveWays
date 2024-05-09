@@ -957,6 +957,9 @@ namespace vMenuClient.data
             ["COMPONENT_AT_MUZZLE_CR"] = "Carbine Muzzle",
             ["COMPONENT_AT_MUZZLE_BRD"] = "Aftermarket Muzzle",
             
+            ["COMPONENT_DUTYPISTOL_CLIP_01"] = "Default Clip",
+            ["COMPONENT_DUTYPISTOL_CLIP_02"] = "Extended Clip",
+            
         };
         #endregion
 
