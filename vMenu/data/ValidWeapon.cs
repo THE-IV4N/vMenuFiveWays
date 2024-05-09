@@ -265,6 +265,7 @@ namespace vMenuClient.data
             //ADDONY
             { "weapon_precisioncarbine", GetLabelText("WTD_PRECISIONCRBN") ,
             { "weapon_katana", GetLabelText("WTD_katana") },
+            { "weapon_dutypistol", GetLabelText("WTD_katana") },
         };
 
         public static readonly Dictionary<string, string> weaponNames = new()
@@ -389,6 +390,7 @@ namespace vMenuClient.data
             //ADDONY
             { "weapon_precisioncarbine", GetLabelText("WT_PRECISIONCRBN") ,
             { "weapon_katana", GetLabelText("WT_katana") },
+            { "weapon_dutypistol", GetLabelText("WTD_katana") },
         };
         #endregion
 
@@ -515,6 +517,7 @@ namespace vMenuClient.data
             //Addony
             ["weapon_precisioncarbine"] = Permission.WPPrecisionCarbine,
             ["weapon_katana"] = Permission.WPKatana,
+            ["weapon_dutypistol"] = Permission.WPDutyPistol,
         };
         #endregion
 
