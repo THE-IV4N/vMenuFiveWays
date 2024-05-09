@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+auusing System.Collections.Generic;
 
 using CitizenFX.Core;
 
@@ -944,7 +944,7 @@ namespace vMenuClient.data
             ["COMPONENT_AT_SCOPE_MEDIUM_TINT"] = "Medium Scope",
             ["COMPONENT_AT_PRC_STOCK"] = "Unfolded Stock",
             ["COMPONENT_AT_PRC_STOCK_COLLAPSED"] = "Collapsed Stock",
-            ["COMPONENT_AT_MUZZLE_PRC"] = "Precision Carbine Muzzle",
+            ["COMPONENT_AT_MUZZLE_PRC"] = "Default Muzzle",
             ["COMPONENT_AT_MUZZLE_CR"] = "Carbine Muzzle",
             ["COMPONENT_AT_MUZZLE_BRD"] = "Bird Muzzle",
             
