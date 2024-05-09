@@ -263,8 +263,8 @@ namespace vMenuClient.data
             { "weapon_battlerifle", GetLabelText("WTD_BATTLERIFLE") },
             { "weapon_snowlauncher", GetLabelText("WTD_SNOWLNCHR") },
             //ADDONY
-            { "weapon_precisioncarbine", GetLabelText("weapon_precisioncarbine") },
-            { "weapon_katana", GetLabelText("weapon_katana") },
+            { "weapon_precisioncarbine", "Precision Carbine" },
+            { "weapon_katana", "Katana" },
         };
 
         public static readonly Dictionary<string, string> weaponNames = new()
@@ -387,8 +387,8 @@ namespace vMenuClient.data
             { "weapon_snowlauncher", GetLabelText("WT_SNOWLNCHR") },
             { "weapon_hackingdevice", GetLabelText("WT_HACKDEVICE") },
             //ADDONY
-            { "weapon_precisioncarbine", GetLabelText("weapon_precisioncarbine") },
-            { "weapon_katana", GetLabelText("weapon_katana") },
+            { "weapon_precisioncarbine", "Precision Carbine" },
+            { "weapon_katana", "Katana" },
         };
         #endregion
 
