@@ -268,6 +268,7 @@ namespace vMenuClient.data
             { "weapon_dutypistol", "Duty Pistol" },
             { "weapon_stampedrifle", "Stamped Rifle" },
             { "weapon_stealthcarbine", "Stealth Carbine" },
+            { "weapon_assaultsniper", "Assault Sniper" },
         };
 
         public static readonly Dictionary<string, string> weaponNames = new()
@@ -395,6 +396,7 @@ namespace vMenuClient.data
             { "weapon_dutypistol", "Duty Pistol" },
             { "weapon_stampedrifle", "Stamped Rifle" },
             { "weapon_stealthcarbine", "Stealth Carbine" },
+            { "weapon_assaultsniper", "Assault Sniper" },
         };
         #endregion
 
@@ -524,6 +526,7 @@ namespace vMenuClient.data
             ["weapon_dutypistol"] = Permission.WPDutyPistol,
             ["weapon_stampedrifle"] = Permission.WPStampedRifle,
             ["weapon_stealthcarbine"] = Permission.WPStealthCarbine,
+            ["weapon_assaultsniper"] = Permission.WPAssaultSniper,
         };
         #endregion
 
@@ -991,6 +994,32 @@ namespace vMenuClient.data
             ["COMPONENT_CARBINE_SIGHT_01"] = "Carbine Iron Sights",
             ["COMPONENT_AT_AR_SUPP_03"] = "Suppresor",
             ["COMPONENT_AT_AR_AFGRIP_TINT"] = "Grip",
+
+            // ASSAULT SNIPER
+            ["COMPONENT_ASSAULTSNIPER_CLIP_01"] = "Default Clip",
+            ["COMPONENT_ASSAULTSNIPER_CLIP_CLASSIC"] = "Classic Clip",
+            ["COMPONENT_ASSAULTSNIPER_STOCK_01"] = "Default Stock",
+            ["COMPONENT_ASSAULTSNIPER_STOCK_02"] = "Stock1",
+            ["COMPONENT_ASSAULTSNIPER_STOCK_03"] = "Stock2",
+            ["COMPONENT_ASSAULTSNIPER_STOCK_04"] = "Stock3",
+            ["COMPONENT_ASSAULTSNIPER_STOCK_05"] = "Stock4",
+            ["COMPONENT_ASSAULTSNIPER_STOCK_06"] = "Stock5",
+            ["COMPONENT_ASSAULTSNIPER_STOCK_07"] = "Stock6",
+            ["COMPONENT_ASSAULTSNIPER_STOCK_08"] = "Stock7",
+            ["COMPONENT_ASSAULTSNIPER_STOCK_09"] = "Stock8",
+            ["COMPONENT_ASSAULTSNIPER_SCOPE_IRONSIGHTS"] = "Default Iron Sights",
+            ["COMPONENT_ASSAULTSNIPER_SCOPE_FIXED"] = "Scope Fixed",
+            ["COMPONENT_ASSAULTSNIPER_SCOPE"] = "Scope",
+            ["COMPONENT_ASSAULTSNIPER_SCOPE_MAX"] = "Scope Max",
+            ["COMPONENT_ASSAULTSNIPER_SCOPE_MAX_FIXED"] = "Scope Max Fixed",
+            ["COMPONENT_ASSAULTSNIPER_RAILCOVER_01"] = "Rail Covers",
+            ["COMPONENT_ASSAULTSNIPER_RAILCOVER_02"] = "Rail Covers2",
+            ["COMPONENT_ASSAULTSNIPER_RAILCOVER_GRIP"] = "Grip",
+            ["COMPONENT_ASSAULTSNIPER_FRONTSIGHT_01"] = "Default Front Sights",
+            ["COMPONENT_ASSAULTSNIPER_FRONTSIGHT_02"] = "Folded Front Sights",
+            ["COMPONENT_ASSAULTSNIPER_FRONTSIGHT_DEL"] = "Deleted Front Sights",
+            ["COMPONENT_ASSAULTSNIPER_VARMOD_LUXE"] = "Deluxe Variant",
+
 
 
 
