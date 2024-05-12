@@ -269,6 +269,9 @@ namespace vMenuClient.data
             { "weapon_stampedrifle", "Stamped Rifle" },
             { "weapon_stealthcarbine", "Stealth Carbine" },
             { "weapon_assaultsniper", "Assault Sniper" },
+            { "weapon_servicepistol_9mm", "Service Pistol 9mm" },
+            { "weapon_servicepistol_45", "Service Pistol .45" },
+            { "weapon_servicepistol_auto", "Service Pistol Auto" },
         };
 
         public static readonly Dictionary<string, string> weaponNames = new()
@@ -397,6 +400,9 @@ namespace vMenuClient.data
             { "weapon_stampedrifle", "Stamped Rifle" },
             { "weapon_stealthcarbine", "Stealth Carbine" },
             { "weapon_assaultsniper", "Assault Sniper" },
+            { "weapon_servicepistol_9mm", "Service Pistol 9mm" },
+            { "weapon_servicepistol_45", "Service Pistol .45" },
+            { "weapon_servicepistol_auto", "Service Pistol Auto" },
         };
         #endregion
 
@@ -527,6 +533,10 @@ namespace vMenuClient.data
             ["weapon_stampedrifle"] = Permission.WPStampedRifle,
             ["weapon_stealthcarbine"] = Permission.WPStealthCarbine,
             ["weapon_assaultsniper"] = Permission.WPAssaultSniper,
+            ["weapon_servicepistol_9mm"] = Permission.WPServicePistol9mm,
+            ["weapon_servicepistol_45"] = Permission.WPServicePistol45,
+            ["weapon_servicepistol_auto"] = Permission.WPServicePistolAuto,
+
         };
         #endregion
 
@@ -999,26 +1009,54 @@ namespace vMenuClient.data
             ["COMPONENT_ASSAULTSNIPER_CLIP_01"] = "Default Clip",
             ["COMPONENT_ASSAULTSNIPER_CLIP_CLASSIC"] = "Classic Clip",
             ["COMPONENT_ASSAULTSNIPER_STOCK_01"] = "Default Stock",
-            ["COMPONENT_ASSAULTSNIPER_STOCK_02"] = "Stock1",
-            ["COMPONENT_ASSAULTSNIPER_STOCK_03"] = "Stock2",
-            ["COMPONENT_ASSAULTSNIPER_STOCK_04"] = "Stock3",
-            ["COMPONENT_ASSAULTSNIPER_STOCK_05"] = "Stock4",
-            ["COMPONENT_ASSAULTSNIPER_STOCK_06"] = "Stock5",
-            ["COMPONENT_ASSAULTSNIPER_STOCK_07"] = "Stock6",
-            ["COMPONENT_ASSAULTSNIPER_STOCK_08"] = "Stock7",
-            ["COMPONENT_ASSAULTSNIPER_STOCK_09"] = "Stock8",
+            ["COMPONENT_ASSAULTSNIPER_STOCK_02"] = "Carbine Stock",
+            ["COMPONENT_ASSAULTSNIPER_STOCK_03"] = "Adjustable Stock",
+            ["COMPONENT_ASSAULTSNIPER_STOCK_04"] = "Plastic Stock",
+            ["COMPONENT_ASSAULTSNIPER_STOCK_05"] = "Padded Stock",
+            ["COMPONENT_ASSAULTSNIPER_STOCK_06"] = "MOD.B Stock",
+            ["COMPONENT_ASSAULTSNIPER_STOCK_07"] = "Rubberized Stock",
+            ["COMPONENT_ASSAULTSNIPER_STOCK_08"] = "Skeleton Stock",
+            ["COMPONENT_ASSAULTSNIPER_STOCK_09"] = "Service Stock",
             ["COMPONENT_ASSAULTSNIPER_SCOPE_IRONSIGHTS"] = "Default Iron Sights",
             ["COMPONENT_ASSAULTSNIPER_SCOPE_FIXED"] = "Scope Fixed",
             ["COMPONENT_ASSAULTSNIPER_SCOPE"] = "Scope",
             ["COMPONENT_ASSAULTSNIPER_SCOPE_MAX"] = "Scope Max",
             ["COMPONENT_ASSAULTSNIPER_SCOPE_MAX_FIXED"] = "Scope Max Fixed",
-            ["COMPONENT_ASSAULTSNIPER_RAILCOVER_01"] = "Rail Covers",
-            ["COMPONENT_ASSAULTSNIPER_RAILCOVER_02"] = "Rail Covers2",
-            ["COMPONENT_ASSAULTSNIPER_RAILCOVER_GRIP"] = "Grip",
+            ["COMPONENT_ASSAULTSNIPER_RAILCOVER_01"] = "All Rail Covers",
+            ["COMPONENT_ASSAULTSNIPER_RAILCOVER_02"] = "Side Rail Covers",
+            ["COMPONENT_ASSAULTSNIPER_RAILCOVER_GRIP"] = "Side Rail Covers and Grip",
             ["COMPONENT_ASSAULTSNIPER_FRONTSIGHT_01"] = "Default Front Sights",
             ["COMPONENT_ASSAULTSNIPER_FRONTSIGHT_02"] = "Folded Front Sights",
             ["COMPONENT_ASSAULTSNIPER_FRONTSIGHT_DEL"] = "Deleted Front Sights",
             ["COMPONENT_ASSAULTSNIPER_VARMOD_LUXE"] = "Deluxe Variant",
+
+            //SERVICEPISTOLS
+            ["COMPONENT_SERVICEPISTOL_9MM_CLIP_01"] = "Default Clip",
+            ["COMPONENT_SERVICEPISTOL_9MM_CLIP_02"] = "Extended Clip",
+            ["COMPONENT_SERVICEPISTOL_9MM_CLIP_03"] = "Drum Mag",
+            ["COMPONENT_SERVICEPISTOL_AUTO_CLIP_01"] = "Default Clip",
+            ["COMPONENT_SERVICEPISTOL_AUTO_CLIP_02"] = "Extended Clip",
+            ["COMPONENT_SERVICEPISTOL_AUTO_CLIP_03"] = "Drum Mag",
+            ["COMPONENT_SERVICEPISTOL_45_CLIP_01"] = "Default Clip",
+            ["COMPONENT_SERVICEPISTOL_45_CLIP_02"] = "Extended Clip",
+            ["COMPONENT_SERVICEPISTOL_45_CLIP_03"] = "Drum Mag",
+            ["COMPONENT_SERVICEPISTOL_SUPP"] = "Suppresor",
+            ["COMPONENT_SERVICEPISTOL_COMP"] = "Compensator",
+            ["COMPONENT_SERVICEPISTOL_FLSH"] = "Flashlight",
+            ["COMPONENT_SERVICEPISTOL_LSR_R"] = "Laser Red",
+            ["COMPONENT_SERVICEPISTOL_LSR_G"] = "Laser Green",
+            ["COMPONENT_SERVICEPISTOL_LSR_B"] = "Laser Blue",
+            ["COMPONENT_SERVICEPISTOL_LSR_M"] = "Laser Magenta",
+            ["COMPONENT_SERVICEPISTOL_LSR_Y"] = "Laser Yellow",
+            ["COMPONENT_SERVICEPISTOL_LSR2_R"] = "Laser MK2 Red",
+            ["COMPONENT_SERVICEPISTOL_LSR2_G"] = "Laser MK2 Green",
+            ["COMPONENT_SERVICEPISTOL_LSR2_B"] = "Laser MK2 Blue",
+            ["COMPONENT_SERVICEPISTOL_LSR2_M"] = "Laser MK2 Magenta",
+            ["COMPONENT_SERVICEPISTOL_LSR2_Y"] = "Laser MK2 Yellow",
+            ["COMPONENT_SERVICEPISTOL_SIGHT"] = "Default Sights",
+            ["COMPONENT_SERVICEPISTOL_NIGHTSIGHT"] = "Night Sights",
+            ["COMPONENT_SERVICEPISTOL_SIGHT"] = "Red Dot Sight",
+
 
 
 
