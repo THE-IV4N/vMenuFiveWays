@@ -330,6 +330,9 @@ namespace vMenuShared
             WPStealthCarbine,
             WPStampedRifle,
             WPAssaultSniper,
+            WPServicePistol9mm
+            WPServicePistol45
+            WPServicePistolAuto
             #endregion
 
             // Weapon Loadouts Menu
