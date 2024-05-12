@@ -263,15 +263,16 @@ namespace vMenuClient.data
             { "weapon_battlerifle", GetLabelText("WTD_BATTLERIFLE") },
             { "weapon_snowlauncher", GetLabelText("WTD_SNOWLNCHR") },
             //ADDONY
-            { "weapon_precisioncarbine", "Precision Carbine" },
-            { "weapon_katana", "Katana" },
-            { "weapon_dutypistol", "Duty Pistol" },
-            { "weapon_stampedrifle", "Stamped Rifle" },
-            { "weapon_stealthcarbine", "Stealth Carbine" },
-            { "weapon_assaultsniper", "Assault Sniper" },
-            { "weapon_servicepistol_9mm", "Service Pistol 9mm" },
-            { "weapon_servicepistol_45", "Service Pistol .45" },
-            { "weapon_servicepistol_auto", "Service Pistol Auto" },
+            { "weapon_precisioncarbine", GetLabelText("WT_PRECISIONCRBN") },
+            { "weapon_katana", GetLabelText("WT_KATANA") },
+            { "weapon_dutypistol", GetLabelText("WT_DUTYPISTOL") },
+            { "weapon_stampedrifle", GetLabelText("WT_STAMPEDRIFLE") },
+            { "weapon_stealthcarbine", GetLabelText("WT_STEALTHCARBINE") },
+            { "weapon_assaultsniper", GetLabelText("WT_ASSAULTCARBINE") },
+            { "weapon_servicepistol_9mm", GetLabelText("WT_SERVICEPISTOL9MM") },
+            { "weapon_servicepistol_45", GetLabelText("WT_SERVICEPISTOL45") },
+            { "weapon_servicepistol_auto", GetLabelText("WT_SERVICEPISTOLAUTO") },
+        };,
         };
 
         public static readonly Dictionary<string, string> weaponNames = new()
@@ -394,15 +395,15 @@ namespace vMenuClient.data
             { "weapon_snowlauncher", GetLabelText("WT_SNOWLNCHR") },
             { "weapon_hackingdevice", GetLabelText("WT_HACKDEVICE") },
             //ADDONY
-            { "weapon_precisioncarbine", "Precision Carbine" },
-            { "weapon_katana", "Katana" },
-            { "weapon_dutypistol", "Duty Pistol" },
-            { "weapon_stampedrifle", "Stamped Rifle" },
-            { "weapon_stealthcarbine", "Stealth Carbine" },
-            { "weapon_assaultsniper", "Assault Sniper" },
-            { "weapon_servicepistol_9mm", "Service Pistol 9mm" },
-            { "weapon_servicepistol_45", "Service Pistol .45" },
-            { "weapon_servicepistol_auto", "Service Pistol Auto" },
+            { "weapon_precisioncarbine", GetLabelText("WT_PRECISIONCRBN") },
+            { "weapon_katana", GetLabelText("WT_KATANA") },
+            { "weapon_dutypistol", GetLabelText("WT_DUTYPISTOL") },
+            { "weapon_stampedrifle", GetLabelText("WT_STAMPEDRIFLE") },
+            { "weapon_stealthcarbine", GetLabelText("WT_STEALTHCARBINE") },
+            { "weapon_assaultsniper", GetLabelText("WT_ASSAULTCARBINE") },
+            { "weapon_servicepistol_9mm", GetLabelText("WT_SERVICEPISTOL9MM") },
+            { "weapon_servicepistol_45", GetLabelText("WT_SERVICEPISTOL45") },
+            { "weapon_servicepistol_auto", GetLabelText("WT_SERVICEPISTOLAUTO") },
         };
         #endregion
 
