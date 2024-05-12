@@ -266,6 +266,8 @@ namespace vMenuClient.data
             { "weapon_precisioncarbine", "Precision Carbine" },
             { "weapon_katana", "Katana" },
             { "weapon_dutypistol", "Duty Pistol" },
+            { "weapon_stampedrifle", "Stamped Rifle" },
+            { "weapon_stealthrifle", "Stealth Rifle" },
         };
 
         public static readonly Dictionary<string, string> weaponNames = new()
@@ -391,6 +393,8 @@ namespace vMenuClient.data
             { "weapon_precisioncarbine", "Precision Carbine" },
             { "weapon_katana", "Katana" },
             { "weapon_dutypistol", "Duty Pistol" },
+            { "weapon_stampedrifle", "Stamped Rifle" },
+            { "weapon_stealthrifle", "Stealth Rifle" },
         };
         #endregion
 
@@ -518,6 +522,8 @@ namespace vMenuClient.data
             ["weapon_precisioncarbine"] = Permission.WPPrecisionCarbine,
             ["weapon_katana"] = Permission.WPKatana,
             ["weapon_dutypistol"] = Permission.WPDutyPistol,
+            ["weapon_stampedrifle"] = Permission.WPStampedRifle,
+            ["weapon_stealthrifle"] = Permission.WPStealthRifle,
         };
         #endregion
 
@@ -942,6 +948,7 @@ namespace vMenuClient.data
             ["COMPONENT_SPECIALCARBINE_VARMOD_XMAS23"] = GetLabelText("WCT_SPCR_XM"),
             ["COMPONENT_HEAVYSNIPER_VARMOD_XMAS23"] = GetLabelText("WCT_HVSP_XM"),
             
+            // ATTACHMENTS
             ["COMPONENT_MILITARY_CLIP_01"] = "30rnd Military Clip",
             ["COMPONENT_MILITARY_CLIP_02"] = "40rnd Military Clip",
             ["COMPONENT_VIETNAM_CLIP_01"] = "20rnd Clip",
@@ -949,16 +956,50 @@ namespace vMenuClient.data
             ["COMPONENT_COMP_CLIP_01"] = "10rnd Clip",
             ["COMPONENT_COMP_CLIP_02"] = "10rnd Military Clip",
             ["COMPONENT_OMEGA_CLIP_01"] = "Omega Drum",
-            ["COMPONENT_AT_RAIL"] = "Rail",
-            ["COMPONENT_AT_SCOPE_MEDIUM_TINT"] = "Medium Scope",
+            ["COMPONENT_SOVIET_CLIP_01"] = "SOVIET CLIP 1",
+            ["COMPONENT_SOVIET_CLIP_02"] = "SOVIET CLIP 2",
+ 
+            ["COMPONENT_IRON_SIGHT_01"] = "Iron Sight 1",
+            ["COMPONENT_IRON_SIGHT_02"] = "Iron Sight 2",
+            ["COMPONENT_AT_SCOPE_SMALLR"] = "Small Scope",
+            ["COMPONENT_AT_KALASH_STOCK_01"] = "Kalash Stock 1",
+            ["COMPONENT_AT_KALASH_STOCK_02"] = "Kalash Stock 2",
+            ["COMPONENT_AT_KALASH_STOCK_03"] = "Kalash Stock 3",
+            ["COMPONENT_AT_KALASH_STOCK_04"] = "Kalash Stock 4",
+            ["COMPONENT_AT_DOVERAIL"] = "Dove Rail",
+            ["COMPONENT_AT_MUZZLE_BRD"] = "Aftermarket Muzzle",
+            ["COMPONENT_AT_MUZZLE_CR"] = "Carbine Muzzle",
+            ["COMPONENT_AT_MUZZLE_KM"] = "KM MUZZLE",
+
+
+            // PRECISION CARBINE
             ["COMPONENT_AT_PRC_STOCK"] = "Unfolded Stock",
             ["COMPONENT_AT_PRC_STOCK_COLLAPSED"] = "Collapsed Stock",
             ["COMPONENT_AT_MUZZLE_PRC"] = "Default Muzzle",
-            ["COMPONENT_AT_MUZZLE_CR"] = "Carbine Muzzle",
-            ["COMPONENT_AT_MUZZLE_BRD"] = "Aftermarket Muzzle",
+            ["COMPONENT_AT_RAIL"] = "Rail",
+            ["COMPONENT_AT_SCOPE_MEDIUM_TINT"] = "Medium Scope",
             
+            
+            // DUTY PISTOL
             ["COMPONENT_DUTYPISTOL_CLIP_01"] = "Default Clip",
             ["COMPONENT_DUTYPISTOL_CLIP_02"] = "Extended Clip",
+
+            // STEALTH RIFLE
+            ["COMPONENT_AT_RAILCOVER_STEALTH"] = "Rail Cover",
+            ["COMPONENT_AT_STEALTHCARBINE_SIGHT"] = "Stealth Iron Sights",
+            ["COMPONENT_AT_SERVICE_SIGHT"] = "Service Iron Sights",
+            ["COMPONENT_CARBINE_SIGHT_01"] = "Carbine Iron Sights",
+            ["COMPONENT_AT_AR_SUPP_03"] = "Suppresor",
+            ["COMPONENT_AT_AR_AFGRIP_TINT"] = "Grip",
+
+
+
+
+
+
+
+
+
             
         };
         #endregion
