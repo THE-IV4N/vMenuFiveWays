@@ -267,7 +267,7 @@ namespace vMenuClient.data
             { "weapon_katana", "Katana" },
             { "weapon_dutypistol", "Duty Pistol" },
             { "weapon_stampedrifle", "Stamped Rifle" },
-            { "weapon_stealthrifle", "Stealth Rifle" },
+            { "weapon_stealthcarbine", "Stealth Carbine" },
         };
 
         public static readonly Dictionary<string, string> weaponNames = new()
@@ -394,7 +394,7 @@ namespace vMenuClient.data
             { "weapon_katana", "Katana" },
             { "weapon_dutypistol", "Duty Pistol" },
             { "weapon_stampedrifle", "Stamped Rifle" },
-            { "weapon_stealthrifle", "Stealth Rifle" },
+            { "weapon_stealthcarbine", "Stealth Carbine" },
         };
         #endregion
 
@@ -523,7 +523,7 @@ namespace vMenuClient.data
             ["weapon_katana"] = Permission.WPKatana,
             ["weapon_dutypistol"] = Permission.WPDutyPistol,
             ["weapon_stampedrifle"] = Permission.WPStampedRifle,
-            ["weapon_stealthrifle"] = Permission.WPStealthRifle,
+            ["weapon_stealthcarbine"] = Permission.WPStealthCarbine,
         };
         #endregion
 
