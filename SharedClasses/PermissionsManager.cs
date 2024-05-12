@@ -323,8 +323,12 @@ namespace vMenuShared
             WPBattleRifle,
             WPSnowLauncher,
             WPHackingDevice,
-            
-            WPLightRifle,
+            //ADDONY!!!!!!!!!!!!!!!!!!!!!!!!!
+            WPPrecisionCarbine,
+            WPKatana,
+            WPDutyPistol,
+            WPStealthRifle,
+            WPStampedRifle,
             #endregion
 
             // Weapon Loadouts Menu
