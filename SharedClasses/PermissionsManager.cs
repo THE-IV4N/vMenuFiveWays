@@ -327,6 +327,8 @@ namespace vMenuShared
             WPPrecisionCarbine,
             WPKatana,
             WPDutyPistol,
+            WPStealthRifle,
+            WPStampedRifle,
             #endregion
 
             // Weapon Loadouts Menu
