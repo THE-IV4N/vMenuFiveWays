@@ -956,8 +956,8 @@ namespace vMenuClient.data
             ["COMPONENT_COMP_CLIP_01"] = "10rnd Clip",
             ["COMPONENT_COMP_CLIP_02"] = "10rnd Military Clip",
             ["COMPONENT_OMEGA_CLIP_01"] = "Omega Drum",
-            ["COMPONENT_SOVIET_CLIP_01"] = "SOVIET CLIP 1",
-            ["COMPONENT_SOVIET_CLIP_02"] = "SOVIET CLIP 2",
+            ["COMPONENT_SOVIET_CLIP_01"] = "30rnd Soviet Clip",
+            ["COMPONENT_SOVIET_CLIP_02"] = "45rnd Soviet Clip",
  
             ["COMPONENT_IRON_SIGHT_01"] = "Iron Sight 1",
             ["COMPONENT_IRON_SIGHT_02"] = "Iron Sight 2",
@@ -969,7 +969,7 @@ namespace vMenuClient.data
             ["COMPONENT_AT_DOVERAIL"] = "Dove Rail",
             ["COMPONENT_AT_MUZZLE_BRD"] = "Aftermarket Muzzle",
             ["COMPONENT_AT_MUZZLE_CR"] = "Carbine Muzzle",
-            ["COMPONENT_AT_MUZZLE_KM"] = "KM MUZZLE",
+            ["COMPONENT_AT_MUZZLE_KM"] = "Kalash Muzzle",
 
 
             // PRECISION CARBINE
