@@ -272,6 +272,7 @@ namespace vMenuClient.data
             { "weapon_servicepistol_9mm", "Service Pistol 9mm" },
             { "weapon_servicepistol_45", "Service Pistol .45" },
             { "weapon_servicepistol_auto", "Service Pistol Auto" },
+            { "weapon_vp897", "Veteran Pistol 897" },
         };
 
         public static readonly Dictionary<string, string> weaponNames = new()
@@ -403,6 +404,7 @@ namespace vMenuClient.data
             { "weapon_servicepistol_9mm", "Service Pistol 9mm" },
             { "weapon_servicepistol_45", "Service Pistol .45" },
             { "weapon_servicepistol_auto", "Service Pistol Auto" },
+            { "weapon_vp897", "Veteran Pistol 897" },
         };
         #endregion
 
@@ -536,6 +538,7 @@ namespace vMenuClient.data
             ["weapon_servicepistol_9mm"] = Permission.WPServicePistol9mm,
             ["weapon_servicepistol_45"] = Permission.WPServicePistol45,
             ["weapon_servicepistol_auto"] = Permission.WPServicePistolAuto,
+            ["weapon_vp897"] = Permission.WPVeteranPistol,
         };
         #endregion
 
@@ -1055,6 +1058,15 @@ namespace vMenuClient.data
             ["COMPONENT_SERVICEPISTOL_SIGHT"] = "Default Sights",
             ["COMPONENT_SERVICEPISTOL_NIGHTSIGHT"] = "Night Sights",
             ["COMPONENT_SERVICEPISTOL_SIGHT"] = "Red Dot Sight",
+
+            //VETERAN PISTOL
+            ["COMPONENT_VP897_CLIP_01"] = "Default Clip",
+            ["COMPONENT_VP897_CLIP_02"] = "Extended Clip",
+            ["COMPONENT_AT_VP897_SUPP"] = "Suppresor",
+
+            //PRECISION SNIPER FIX
+            ["COMPONENT_AT_PRECISIONRIFLE_SIGHT"] = "Default Sights",
+            ["COMPONENT_AT_PRMUZZLE"] = "Default Muzzle",
         };
         #endregion
 
