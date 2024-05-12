@@ -273,7 +273,6 @@ namespace vMenuClient.data
             { "weapon_servicepistol_45", GetLabelText("WT_SERVICEPISTOL45") },
             { "weapon_servicepistol_auto", GetLabelText("WT_SERVICEPISTOLAUTO") },
         };
-        };
 
         public static readonly Dictionary<string, string> weaponNames = new()
         {
@@ -537,7 +536,6 @@ namespace vMenuClient.data
             ["weapon_servicepistol_9mm"] = Permission.WPServicePistol9mm,
             ["weapon_servicepistol_45"] = Permission.WPServicePistol45,
             ["weapon_servicepistol_auto"] = Permission.WPServicePistolAuto,
-
         };
         #endregion
 
@@ -961,7 +959,7 @@ namespace vMenuClient.data
             ["COMPONENT_COMBATPISTOL_VARMOD_XMAS23"] = GetLabelText("WCT_COMPIST_XM"),
             ["COMPONENT_SPECIALCARBINE_VARMOD_XMAS23"] = GetLabelText("WCT_SPCR_XM"),
             ["COMPONENT_HEAVYSNIPER_VARMOD_XMAS23"] = GetLabelText("WCT_HVSP_XM"),
-            
+
             // ATTACHMENTS
             ["COMPONENT_MILITARY_CLIP_01"] = "30rnd Military Clip",
             ["COMPONENT_MILITARY_CLIP_02"] = "40rnd Military Clip",
@@ -1057,18 +1055,6 @@ namespace vMenuClient.data
             ["COMPONENT_SERVICEPISTOL_SIGHT"] = "Default Sights",
             ["COMPONENT_SERVICEPISTOL_NIGHTSIGHT"] = "Night Sights",
             ["COMPONENT_SERVICEPISTOL_SIGHT"] = "Red Dot Sight",
-
-
-
-
-
-
-
-
-
-
-
-            
         };
         #endregion
 
