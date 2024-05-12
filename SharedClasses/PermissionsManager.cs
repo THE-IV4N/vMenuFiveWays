@@ -333,6 +333,7 @@ namespace vMenuShared
             WPServicePistol9mm,
             WPServicePistol45,
             WPServicePistolAuto,
+            WPVeteranPistol,
             #endregion
 
             // Weapon Loadouts Menu
