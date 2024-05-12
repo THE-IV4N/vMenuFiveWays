@@ -272,7 +272,7 @@ namespace vMenuClient.data
             { "weapon_servicepistol_9mm", GetLabelText("WT_SERVICEPISTOL9MM") },
             { "weapon_servicepistol_45", GetLabelText("WT_SERVICEPISTOL45") },
             { "weapon_servicepistol_auto", GetLabelText("WT_SERVICEPISTOLAUTO") },
-        };,
+        };
         };
 
         public static readonly Dictionary<string, string> weaponNames = new()
