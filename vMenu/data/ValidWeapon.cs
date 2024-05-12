@@ -402,7 +402,7 @@ namespace vMenuClient.data
             { "weapon_assaultsniper", "Assault Sniper" },
             { "weapon_servicepistol_9mm", "Service Pistol 9mm" },
             { "weapon_servicepistol_45", "Service Pistol .45" },
-            { "weapon_servicepistol_auto", "Service Pistol Auto" },S
+            { "weapon_servicepistol_auto", "Service Pistol Auto" },
         };
         #endregion
 
