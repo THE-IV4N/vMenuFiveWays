@@ -273,6 +273,10 @@ namespace vMenuClient.data
             { "weapon_servicepistol_45", "Service Pistol .45" },
             { "weapon_servicepistol_auto", "Service Pistol Auto" },
             { "weapon_vp897", "Veteran Pistol 897" },
+            { "weapon_riotshotgun", "Riot Shotgun" },
+            { "weapon_gardone", "Gardone Pistol" },
+            { "weapon_dp9", "DP9 Pistol" },
+            { "weapon_endurance", "Endurance Pistol" },
         };
 
         public static readonly Dictionary<string, string> weaponNames = new()
@@ -405,6 +409,10 @@ namespace vMenuClient.data
             { "weapon_servicepistol_45", "Service Pistol .45" },
             { "weapon_servicepistol_auto", "Service Pistol Auto" },
             { "weapon_vp897", "Veteran Pistol 897" },
+            { "weapon_riotshotgun", "Riot Shotgun" },
+            { "weapon_gardone", "Gardone Pistol" },
+            { "weapon_dp9", "DP9 Pistol" },
+            { "weapon_endurance", "Endurance Pistol" },
         };
         #endregion
 
@@ -539,7 +547,10 @@ namespace vMenuClient.data
             ["weapon_servicepistol_45"] = Permission.WPServicePistol45,
             ["weapon_servicepistol_auto"] = Permission.WPServicePistolAuto,
             ["weapon_vp897"] = Permission.WPVeteranPistol,
-        };
+            ["weapon_riotshotgun"] = Permission.WPRiotShotgun,
+            ["weapon_gardone"] = Permission.WPGardone,
+            ["weapon_dp9"] = Permission.WPDP9,
+            ["weapon_endurance"] = Permission.WPEndurance,
         #endregion
 
         #region weapon component names
@@ -1064,9 +1075,21 @@ namespace vMenuClient.data
             ["COMPONENT_VP897_CLIP_02"] = "Extended Clip",
             ["COMPONENT_AT_VP897_SUPP"] = "Suppresor",
 
-            //PRECISION SNIPER FIX
-            ["COMPONENT_AT_PRECISIONRIFLE_SIGHT"] = "Default Sights",
-            ["COMPONENT_AT_PRMUZZLE"] = "Default Muzzle",
+            //RIOT SHOTGUN
+            ["COMPONENT_RIOTSHOTGUN_CLIP_DEFAULT"] = "Default Rounds",
+            ["COMPONENT_RIOTSHOTGUN_CLIP_SLUG"] = "Slug Rounds",
+
+            //GARDONE PISTOL
+            ["COMPONENT_GARDONE_CLIP_01"] = "Default Clip",
+            ["COMPONENT_GARDONE_CLIP_02"] = "Extended Clip",
+
+            //DP9 PISTOL
+            ["COMPONENT_DP9_CLIP_01"] = "Default Clip",
+            ["COMPONENT_DP9_CLIP_02"] = "Extended Clip",
+
+            //ENDURANCE PISTOL
+            ["COMPONENT_ENDURANCE_CLIP_01"] = "Default Clip",
+            ["COMPONENT_ENDURANCE_CLIP_02"] = "Extended Clip",
         };
         #endregion
 
