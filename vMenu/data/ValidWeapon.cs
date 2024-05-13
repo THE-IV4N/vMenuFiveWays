@@ -551,6 +551,7 @@ namespace vMenuClient.data
             ["weapon_gardone"] = Permission.WPGardone,
             ["weapon_dp9"] = Permission.WPDP9,
             ["weapon_endurance"] = Permission.WPEndurance,
+        };
         #endregion
 
         #region weapon component names
