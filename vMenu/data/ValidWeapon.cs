@@ -277,6 +277,13 @@ namespace vMenuClient.data
             { "weapon_gardone", "Gardone Pistol" },
             { "weapon_dp9", "DP9 Pistol" },
             { "weapon_endurance", "Endurance Pistol" },
+            { "weapon_amrifle", "AntiMaterial Rifle" },
+            { "weapon_extendedsmg", "Extended SMG" },
+            { "weapon_goldsmg", "Gold Extended SMG" },
+            { "weapon_pistol44", "Pistol .44" },
+            { "weapon_militarycarbine", "Military Carbine" },
+            { "weapon_servicecarbine", "Service Carbine" },
+            { "weapon_sovietpistol", "Soviet Pistol" },
         };
 
         public static readonly Dictionary<string, string> weaponNames = new()
@@ -413,6 +420,13 @@ namespace vMenuClient.data
             { "weapon_gardone", "Gardone Pistol" },
             { "weapon_dp9", "DP9 Pistol" },
             { "weapon_endurance", "Endurance Pistol" },
+            { "weapon_amrifle", "AntiMaterial Rifle" },
+            { "weapon_extendedsmg", "Extended SMG" },
+            { "weapon_goldsmg", "Gold Extended SMG" },
+            { "weapon_pistol44", "Pistol .44" },
+            { "weapon_militarycarbine", "Military Carbine" },
+            { "weapon_servicecarbine", "Service Carbine" },
+            { "weapon_sovietpistol", "Soviet Pistol" },
         };
         #endregion
 
@@ -551,6 +565,13 @@ namespace vMenuClient.data
             ["weapon_gardone"] = Permission.WPGardone,
             ["weapon_dp9"] = Permission.WPDP9,
             ["weapon_endurance"] = Permission.WPEndurance,
+            ["weapon_amrifle"] = Permission.WPAMRifle,
+            ["weapon_extendedsmg"] = Permission.WPExtendedSmg,
+            ["weapon_goldsmg"] = Permission.WPGoldSmg,
+            ["weapon_pistol44"] = Permission.WPPistol44,
+            ["weapon_militarycarbine"] = Permission.WPMilitaryCarbine,
+            ["weapon_servicecarbine"] = Permission.WPServiceCarbine,
+            ["weapon_sovietpistol"] = Permission.WPSovietPistol,
         };
         #endregion
 
@@ -1091,6 +1112,56 @@ namespace vMenuClient.data
             //ENDURANCE PISTOL
             ["COMPONENT_ENDURANCE_CLIP_01"] = "Default Clip",
             ["COMPONENT_ENDURANCE_CLIP_02"] = "Extended Clip",
+
+            //ANTIMATERIAL RIFLE
+            ["COMPONENT_AMRIFLE_CLIP_01"] = "Default Clip",
+            ["COMPONENT_AMRIFLE_CLIP_02"] = "Extended Clip",
+            ["COMPONENT_AMRIFLE_SCOPE_LARGE"] = "Default Scope",
+            ["COMPONENT_AMRIFLE_SCOPE_MAX"] = "Max Scope",
+            ["COMPONENT_AMRIFLE_MUZZLE_FORCED"] = "Default Muzzle",
+            ["COMPONENT_AMRIFLE_SUPPRESSOR"] = "Suppresor",
+            ["COMPONENT_AMRIFLE_IRONS"] = "Iron Sight",
+            ["COMPONENT_AMRIFLE_IRONS_FOLDED"] = "Folded Iron Sights",
+            ["COMPONENT_AMRIFLE_VARMOD_RETRO"] = "Default Clip",
+            ["COMPONENT_AMRIFLE_CAMO_BLUEZEBRA"] = "Blue Zebra Camo",
+            ["COMPONENT_AMRIFLE_CAMO_HAZARD"] = "Hazard Camo",
+            ["COMPONENT_AMRIFLE_CAMO_DOLLARBILLS"] = "Dollar Camo",
+            ["COMPONENT_AMRIFLE_CAMO_REDLEOPARD"] = "Red Leopard Camo",
+            ["COMPONENT_AMRIFLE_CAMO_SESSANTANOVE"] = "Sessantanove Camo",
+            ["COMPONENT_AMRIFLE_CAMO_SESSANTANOVE2"] = "Sessantanove Camo 2",
+            ["COMPONENT_AMRIFLE_CAMO_SKULL"] = "Skull Camo",
+            ["COMPONENT_AMRIFLE_CAMO_TRIBAL"] = "Tribal Camo",
+            ["COMPONENT_AMRIFLE_CAMO_TRUERUFFIAN"] = "Ruffian Camo",
+            ["COMPONENT_AMRIFLE_CAMO_XMAS"] = "Xmas Camo",
+            ["COMPONENT_AMRIFLE_CAMO_ZANCUDO"] = "Zancudo Camo",
+
+            //EXTENDED SMG
+            ["COMPONENT_EXTENDEDSMG_CLIP_01"] = "Default Clip",
+            ["COMPONENT_EXTENDEDSMG_CLIP_02"] = "Extended Clip",
+            ["COMPONENT_EXTENDEDSMG_STOCK1"] = "Default Stock",
+            ["COMPONENT_EXTENDEDSMG_STOCK2"] = "Extended Stock",
+            ["COMPONENT_EXTENDEDSMG_STOCK3"] = "Wooden Stock",
+            ["COMPONENT_EXTENDEDSMG_BARREL"] = "Default Muzzle",
+            ["COMPONENT_EXTENDEDSMG_SUPPRESSOR"] = "Small Suppresor",
+            ["COMPONENT_AT_AR_SUPP_02"] = "Suppresor",
+
+            //MILITARY CARBINE
+            ["COMPONENT_MILITARYCARBINE_CARRYHANDLE"] = "Carry Handle",
+
+            //SERVICE CARBINE
+            ["COMPONENT_AT_SCOPE_SERVICE"] = "Scope",
+            ["COMPONENT_AT_MUZZLE_MOD"] = "Default Muzzle",
+
+            //PISTOL 44
+            ["COMPONENT_PISTOL44_CLIP_01"] = "Default Clip",
+            ["COMPONENT_PISTOL44_CLIP_02"] = "Extended Clip",
+            ["COMPONENT_PISTOL44_SCOPE"] = "Scope",
+
+            //SOVIET PISTOL
+            ["COMPONENT_SOVIETPISTOL_CLIP_01"] = "Default Clip",
+            ["COMPONENT_SOVIETPISTOL_CLIP_02"] = "Extended Clip",
+
+
         };
         #endregion
 
