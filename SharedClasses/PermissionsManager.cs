@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -338,6 +338,13 @@ namespace vMenuShared
             WPGardone,
             WPDP9,
             WPEndurance,
+            WPAMRifle,
+            WPExtendedSmg,
+            WPGoldSmg,
+            WPPistol44,
+            WPMilitaryCarbine,
+            WPServiceCarbine,
+            WPSovietPistol,
             #endregion
 
             // Weapon Loadouts Menu
