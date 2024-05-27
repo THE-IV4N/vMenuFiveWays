@@ -345,6 +345,11 @@ namespace vMenuShared
             WPMilitaryCarbine,
             WPServiceCarbine,
             WPSovietPistol,
+            WPHeavyShotgunMK2,
+            WPIsraeliRifle,
+            WPMiniShotgun,
+            WPSweeper,
+            WPSovietSniper,
             #endregion
 
             // Weapon Loadouts Menu
