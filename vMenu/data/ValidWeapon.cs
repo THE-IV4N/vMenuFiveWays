@@ -284,6 +284,11 @@ namespace vMenuClient.data
             { "weapon_militarycarbine", "Military Carbine" },
             { "weapon_servicecarbine", "Service Carbine" },
             { "weapon_sovietpistol", "Soviet Pistol" },
+            { "weapon_heavyshotgun_mk2", "Heavy Shotgun MK2" },
+            { "weapon_israelirifle", "Israeli Rifle" },
+            { "weapon_minishotgun", "Mini Shotgun" },
+            { "weapon_sweeper", "Sweeper Shotgun" },
+            { "weapon_russiansniper", "Soviet Sniper" },
         };
 
         public static readonly Dictionary<string, string> weaponNames = new()
@@ -427,6 +432,11 @@ namespace vMenuClient.data
             { "weapon_militarycarbine", "Military Carbine" },
             { "weapon_servicecarbine", "Service Carbine" },
             { "weapon_sovietpistol", "Soviet Pistol" },
+            { "weapon_heavyshotgun_mk2", "Heavy Shotgun MK2" },
+            { "weapon_israelirifle", "Israeli Rifle" },
+            { "weapon_minishotgun", "Mini Shotgun" },
+            { "weapon_sweeper", "Sweeper Shotgun" },
+            { "weapon_russiansniper", "Soviet Sniper" },
         };
         #endregion
 
@@ -572,6 +582,11 @@ namespace vMenuClient.data
             ["weapon_militarycarbine"] = Permission.WPMilitaryCarbine,
             ["weapon_servicecarbine"] = Permission.WPServiceCarbine,
             ["weapon_sovietpistol"] = Permission.WPSovietPistol,
+            ["weapon_heavyshotgun_mk2"] = Permission.WPHeavyShotgunMK2,
+            ["weapon_israelirifle"] = Permission.WPIsraeliRifle,
+            ["weapon_minishotgun"] = Permission.WPMiniShotgun,
+            ["weapon_sweeper"] = Permission.WPSweeper,
+            ["weapon_russiansniper"] = Permission.WPSovietSniper,
         };
         #endregion
 
@@ -1037,7 +1052,7 @@ namespace vMenuClient.data
             ["COMPONENT_AT_STEALTHCARBINE_SIGHT"] = "Stealth Iron Sights",
             ["COMPONENT_AT_SERVICE_SIGHT"] = "Service Iron Sights",
             ["COMPONENT_CARBINE_SIGHT_01"] = "Carbine Iron Sights",
-            ["COMPONENT_AT_AR_SUPP_03"] = "Suppresor",
+            ["COMPONENT_AT_AR_SUPP_03"] = "Suppressor",
             ["COMPONENT_AT_AR_AFGRIP_TINT"] = "Grip",
 
             // ASSAULT SNIPER
@@ -1095,7 +1110,7 @@ namespace vMenuClient.data
             //VETERAN PISTOL
             ["COMPONENT_VP897_CLIP_01"] = "Default Clip",
             ["COMPONENT_VP897_CLIP_02"] = "Extended Clip",
-            ["COMPONENT_AT_VP897_SUPP"] = "Suppresor",
+            ["COMPONENT_AT_VP897_SUPP"] = "Suppressor",
 
             //RIOT SHOTGUN
             ["COMPONENT_RIOTSHOTGUN_CLIP_DEFAULT"] = "Default Rounds",
@@ -1141,9 +1156,8 @@ namespace vMenuClient.data
             ["COMPONENT_EXTENDEDSMG_STOCK1"] = "Default Stock",
             ["COMPONENT_EXTENDEDSMG_STOCK2"] = "Extended Stock",
             ["COMPONENT_EXTENDEDSMG_STOCK3"] = "Wooden Stock",
-            ["COMPONENT_EXTENDEDSMG_BARREL"] = "Default Muzzle",
-            ["COMPONENT_EXTENDEDSMG_SUPPRESSOR"] = "Small Suppresor",
-            ["COMPONENT_AT_AR_SUPP_02"] = "Suppresor",
+            ["COMPONENT_EXTENDEDSMG_BARREL"] = "Barrel Cover",
+            ["COMPONENT_EXTENDEDSMG_SUPPRESSOR"] = "Small Suppressor",
 
             //MILITARY CARBINE
             ["COMPONENT_MILITARYCARBINE_CARRYHANDLE"] = "Carry Handle",
@@ -1161,7 +1175,53 @@ namespace vMenuClient.data
             ["COMPONENT_SOVIETPISTOL_CLIP_01"] = "Default Clip",
             ["COMPONENT_SOVIETPISTOL_CLIP_02"] = "Extended Clip",
 
+            //HEAVY SHOTGUN MK2
+            ["COMPONENT_HEAVYSHOTGUN_MK2_CLIP_01"] = "Default Clip",
+            ["COMPONENT_HEAVYSHOTGUN_MK2_CLIP_02"] = "Extended Clip",
+            ["COMPONENT_HEAVYSHOTGUN_MK2_MUZZLE_SUPP"] = "Default Clip",
+            ["COMPONENT_HEAVYSHOTGUN_MK2_MUZZLE_1"] = "Extended Clip",
+            ["COMPONENT_HEAVYSHOTGUN_MK2_BARREL_01"] = "Default Clip",
+            ["COMPONENT_HEAVYSHOTGUN_MK2_BARREL_02"] = "Extended Clip",
+            ["COMPONENT_HEAVYSHOTGUN_MK2_CAMO"] = "Camo 1",
+            ["COMPONENT_HEAVYSHOTGUN_MK2_CAMO_02"] = "Camo 2",
+            ["COMPONENT_HEAVYSHOTGUN_MK2_CAMO_03"] = "Camo 3",
+            ["COMPONENT_HEAVYSHOTGUN_MK2_CAMO_04"] = "Camo 4",
+            ["COMPONENT_HEAVYSHOTGUN_MK2_CAMO_05"] = "Camo 5",
+            ["COMPONENT_HEAVYSHOTGUN_MK2_CAMO_06"] = "Camo 6",
+            ["COMPONENT_HEAVYSHOTGUN_MK2_CAMO_07"] = "Camo 7",
+            ["COMPONENT_HEAVYSHOTGUN_MK2_CAMO_08"] = "Camo 8",
+            ["COMPONENT_HEAVYSHOTGUN_MK2_CAMO_09"] = "Camo 9",
+            ["COMPONENT_HEAVYSHOTGUN_MK2_CAMO_10"] = "Camo 10",
+            ["COMPONENT_HEAVYSHOTGUN_MK2_CAMO_IND_01"] = "Camo 11",
 
+            //ISRAELI RIFLE
+            ["COMPONENT_ISRAELIRIFLE_CLIP_01"] = "Default Clip",
+            ["COMPONENT_ISRAELIRIFLE_CLIP_02"] = "Extended Clip",
+            ["COMPONENT_ISRAELIRIFLE_CLIP_03"] = "Drum Mag",
+            ["COMPONENT_ISRAELIRIFLE_SIDERAILS"] = "Side Rail",
+            ["COMPONENT_ISRAELIRIFLE_DOVERAIL"] = "Dove Rail",
+            ["COMPONENT_ISRAELIRIFLE_VARMOD_LUXE"] = "Deluxe Variant",
+
+            //MINI SHOTGUN
+            ["COMPONENT_MINISHOTGUN_CLIP_01"] = "Default Clip",
+            ["COMPONENT_MINISHOTGUN_DOVERAIL"] = "Dove Rail",
+            ["COMPONENT_MINISHOTGUN_VARMOD_LUXE"] = "Deluxe Variant",
+            ["COMPONENT_MINISHOTGUN_STOCK"] = "Extended Stock",
+
+            //ISRAELI RIFLE
+            ["COMPONENT_ISRAELIRIFLE_CLIP_01"] = "Default Clip",
+            ["COMPONENT_ISRAELIRIFLE_CLIP_02"] = "Extended Clip",
+            ["COMPONENT_ISRAELIRIFLE_CLIP_03"] = "Drum Mag",
+            ["COMPONENT_ISRAELIRIFLE_SIDERAILS"] = "Side Rail",
+            ["COMPONENT_ISRAELIRIFLE_DOVERAIL"] = "Dove Rail",
+            ["COMPONENT_ISRAELIRIFLE_VARMOD_LUXE"] = "Deluxe Variant",
+
+            //SWEEPER SHOTGUN
+            ["COMPONENT_SWEEPER_CLIP_01"] = "Default Clip",
+            ["COMPONENT_SWEEPER_GRIP"] = "Grip",
+            ["COMPONENT_SWEEPER_FLASHLIGHT"] = "Flashlight",
+            ["COMPONENT_SWEEPER_SUPPRESSOR"] = "Suppresor",
+            ["COMPONENT_SWEEPER_STOCK"] = "Extended Stock",
         };
         #endregion
 
