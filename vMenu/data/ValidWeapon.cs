@@ -289,6 +289,9 @@ namespace vMenuClient.data
             { "weapon_minishotgun", "Mini Shotgun" },
             { "weapon_sweeper", "Sweeper Shotgun" },
             { "weapon_russiansniper", "Soviet Sniper" },
+            { "weapon_flamethrower", "Flamethrower" },
+            { "weapon_colbaton", "Folding Baton" },
+            { "weapon_pocketlight", "Pocket Flashlight" },
         };
 
         public static readonly Dictionary<string, string> weaponNames = new()
@@ -437,6 +440,9 @@ namespace vMenuClient.data
             { "weapon_minishotgun", "Mini Shotgun" },
             { "weapon_sweeper", "Sweeper Shotgun" },
             { "weapon_russiansniper", "Soviet Sniper" },
+            { "weapon_flamethrower", "Flamethrower" },
+            { "weapon_colbaton", "Folding Baton" },
+            { "weapon_pocketlight", "Pocket Flashlight" },
         };
         #endregion
 
@@ -587,6 +593,9 @@ namespace vMenuClient.data
             ["weapon_minishotgun"] = Permission.WPMiniShotgun,
             ["weapon_sweeper"] = Permission.WPSweeper,
             ["weapon_russiansniper"] = Permission.WPSovietSniper,
+            ["weapon_flamethrower"] = Permission.WPFlamethrower,
+            ["weapon_colbaton"] = Permission.WPColbaton,
+            ["weapon_pocketlight"] = Permission.WPPocketFlash,
         };
         #endregion
 
@@ -1052,7 +1061,7 @@ namespace vMenuClient.data
             ["COMPONENT_AT_STEALTHCARBINE_SIGHT"] = "Stealth Iron Sights",
             ["COMPONENT_AT_SERVICE_SIGHT"] = "Service Iron Sights",
             ["COMPONENT_CARBINE_SIGHT_01"] = "Carbine Iron Sights",
-            ["COMPONENT_AT_AR_SUPP_03"] = "Suppressor",
+            ["COMPONENT_AT_AR_SUPP_03"] = "Suppresor",
             ["COMPONENT_AT_AR_AFGRIP_TINT"] = "Grip",
 
             // ASSAULT SNIPER
@@ -1110,7 +1119,7 @@ namespace vMenuClient.data
             //VETERAN PISTOL
             ["COMPONENT_VP897_CLIP_01"] = "Default Clip",
             ["COMPONENT_VP897_CLIP_02"] = "Extended Clip",
-            ["COMPONENT_AT_VP897_SUPP"] = "Suppressor",
+            ["COMPONENT_AT_VP897_SUPP"] = "Suppresor",
 
             //RIOT SHOTGUN
             ["COMPONENT_RIOTSHOTGUN_CLIP_DEFAULT"] = "Default Rounds",
@@ -1157,7 +1166,7 @@ namespace vMenuClient.data
             ["COMPONENT_EXTENDEDSMG_STOCK2"] = "Extended Stock",
             ["COMPONENT_EXTENDEDSMG_STOCK3"] = "Wooden Stock",
             ["COMPONENT_EXTENDEDSMG_BARREL"] = "Barrel Cover",
-            ["COMPONENT_EXTENDEDSMG_SUPPRESSOR"] = "Small Suppressor",
+            ["COMPONENT_EXTENDEDSMG_SUPPRESSOR"] = "Small Suppresor",
 
             //MILITARY CARBINE
             ["COMPONENT_MILITARYCARBINE_CARRYHANDLE"] = "Carry Handle",
@@ -1222,6 +1231,23 @@ namespace vMenuClient.data
             ["COMPONENT_SWEEPER_FLASHLIGHT"] = "Flashlight",
             ["COMPONENT_SWEEPER_SUPPRESSOR"] = "Suppresor",
             ["COMPONENT_SWEEPER_STOCK"] = "Extended Stock",
+
+            //FOLDING BATON
+            ["COMPONENT_COLBATON_GRIP_01"] = "Tactical Grip",
+
+            //POCKET FLASHLIGHT
+            ["COMPONENT_PLIGHT_W"] = "White Light",
+            ["COMPONENT_PLIGHT_UV"] = "UV Light",
+            ["COMPONENT_PLIGHT_RED"] = "Redlight",
+            ["COMPONENT_PLIGHT_WAND_W"] = "White Wand",
+            ["COMPONENT_PLIGHT_WAND_R"] = "Red Wand",
+            ["COMPONENT_PLIGHT_WAND_A"] = "Amber Wand",
+            ["COMPONENT_PLIGHT_WAND_G"] = "Green Wand",
+            ["COMPONENT_PLIGHT_PS"] = "Extended Clip",
+            ["COMPONENT_PLIGHT_CAMO_01"] = "Camo 1",
+            ["COMPONENT_PLIGHT_CAMO_02"] = "Camo 2",
+            ["COMPONENT_PLIGHT_CAMO_03"] = "Camo 3",
+            ["COMPONENT_PLIGHT_CAMO_04"] = "Camo 4",
         };
         #endregion
 
