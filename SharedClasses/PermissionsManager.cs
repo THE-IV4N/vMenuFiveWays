@@ -350,6 +350,9 @@ namespace vMenuShared
             WPMiniShotgun,
             WPSweeper,
             WPSovietSniper,
+            WPFlamethrower,
+            WPColbaton,
+            WPPocketFlash,
             #endregion
 
             // Weapon Loadouts Menu
